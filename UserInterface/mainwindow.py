@@ -9,6 +9,7 @@ import random
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType("window4.ui")
 
+
 class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
         QtWidgets.QMainWindow.__init__(self)
