@@ -22,7 +22,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.addToolBar(NavigationToolbar(self.MplWidget.canvas, self))
         self.setWindowTitle("Fluorescence  Efficiency Evaluation")
         self.init_graph()
-        self.datatable.setHorizontalHeaderLabels(['Sample\nIndex','Relatine\nEfficiency (%)'])
+        self.datatable.setHorizontalHeaderLabels(['Sample\nIndex','Relative\nEfficiency (%)'])
 
     def init_graph(self):
         self.MplWidget.canvas.axes.clear()
